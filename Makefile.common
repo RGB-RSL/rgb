@@ -1,0 +1,55 @@
+SHELL = /bin/sh
+
+CXX=g++
+
+CXXFLAGS = -static -std=gnu++0x -O5 -pipe -Wall -I. -lpthread \
+           $(foreach DEPLIB,$(DEPLIBS),-I$(TOPDIR)/$(DEPLIB)) \
+           $(foreach LOGLEVEL,$(LOGLEVELS),-D$(LOGLEVEL))
+
+LDFLAGS = -static
+LIBS = 
+DEFS = 
+LIBDIR = $(TOPDIR)/.lib
+OBJDIR = .obj
+DEPDIR = .dep
+DEPLIBS = Connection \
+		Decision\
+		Radar \
+		Utilities \
+		Utilities/Geometry\
+		Utilities/Types\
+		WorldGraph\
+		WorldModel\
+		WorldModel/Objects\
+
+SRCS = $(filter-out Main.cpp,$(wildcard *.cpp))
+OBJS = $(foreach OBJ,$(SRCS:.cpp=.o),$(OBJDIR)/$(OBJ))
+DEPS = $(foreach DEP,$(SRCS:.cpp=.d),$(DEPDIR)/$(DEP))
+
+$(OBJDIR)/%.o: %.cpp
+	$(CXX) -c $(CXXFLAGS) $(DEFS) -o $@ $<
+
+$(DEPDIR)/%.d: %.cpp
+	@$(SHELL) -ec '$(CXX) -MM $(CXXFLAGS) $< \
+	| sed '\''s/$*.o/$(OBJDIR)\/$*.o\ $(DEPDIR)\/$*.d/g'\'' > $@; \
+	[ -s $@ ] || rm -f $@'
+
+all:: $(LIBDIR)
+
+$(LIBDIR):
+	mkdir $@
+
+ifneq ($(DEPS),)
+ifneq ($(MAKECMDGOALS),tidy)
+ifneq ($(MAKECMDGOALS),clean)
+sinclude $(DEPS)
+endif
+endif
+endif
+
+clean::
+	rm -f core *~ $(OBJDIR)/*.o *.log $(DEPDIR)/*.d
+	rm -f $(BINS) *.rar *.tar.gz *.tar.bz2
+
+tidy::
+	rm -f core *~ $(OBJDIR)/*.o *.log $(DEPDIR)/*.d

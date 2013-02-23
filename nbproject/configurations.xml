@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <df name="Eskilas-Pre-IO2011" root=".">
+      <df name="Config">
+      </df>
+      <df name="Connection">
+        <in>AbstractConnection.h</in>
+        <in>Addr.cpp</in>
+        <in>Addr.h</in>
+        <in>Exception.cpp</in>
+        <in>Exception.h</in>
+        <in>Message.cpp</in>
+        <in>Message.h</in>
+        <in>OfflineConnection.cpp</in>
+        <in>OfflineConnection.h</in>
+        <in>OnlineConnection.cpp</in>
+        <in>OnlineConnection.h</in>
+        <in>Socket.cpp</in>
+        <in>Socket.h</in>
+        <in>TCPSocket.cpp</in>
+        <in>TCPSocket.h</in>
+      </df>
+      <df name="Decision">
+        <in>Agent.cpp</in>
+        <in>Agent.h</in>
+        <in>AmbulanceCenterAgent.cpp</in>
+        <in>AmbulanceCenterAgent.h</in>
+        <in>AmbulanceTeamAgent.cpp</in>
+        <in>AmbulanceTeamAgent.h</in>
+        <in>Command.cpp</in>
+        <in>Command.h</in>
+        <in>FireBrigadeAgent.cpp</in>
+        <in>FireBrigadeAgent.h</in>
+        <in>FireStationAgent.cpp</in>
+        <in>FireStationAgent.h</in>
+        <in>Genetic.cpp</in>
+        <in>Genetic.h</in>
+        <in>PoliceForceAgent.cpp</in>
+        <in>PoliceForceAgent.h</in>
+        <in>PoliceOfficeAgent.cpp</in>
+        <in>PoliceOfficeAgent.h</in>
+        <in>Precomputation.cpp</in>
+        <in>Search.cpp</in>
+        <in>Search.h</in>
+      </df>
+      <df name="LogFiles">
+        <df name="Offline">
+        </df>
+      </df>
+      <df name="Radar">
+        <in>AbstractChannel.cpp</in>
+        <in>AbstractChannel.h</in>
+        <in>Radar.cpp</in>
+        <in>Radar.h</in>
+        <in>RadioChannel.cpp</in>
+        <in>RadioChannel.h</in>
+        <in>VoiceChannel.cpp</in>
+        <in>VoiceChannel.h</in>
+      </df>
+      <df name="Utilities">
+        <df name="Geometry">
+          <in>Circle.cpp</in>
+          <in>Circle.h</in>
+          <in>GeometryFunctions.cpp</in>
+          <in>GeometryFunctions.h</in>
+          <in>Line.cpp</in>
+          <in>Line.h</in>
+          <in>OneTimeSettings.h</in>
+          <in>Point.cpp</in>
+          <in>Point.h</in>
+          <in>Polygon.cpp</in>
+          <in>Polygon.h</in>
+          <in>Rectangle.cpp</in>
+          <in>Rectangle.h</in>
+          <in>Segment.cpp</in>
+          <in>Segment.h</in>
+          <in>Vector.cpp</in>
+          <in>Vector.h</in>
+        </df>
+        <df name="Types">
+          <in>Types.h</in>
+          <in>common.h</in>
+          <in>input.cpp</in>
+          <in>input.h</in>
+          <in>output.cpp</in>
+          <in>output.h</in>
+        </df>
+        <in>Basics.cpp</in>
+        <in>Basics.h</in>
+        <in>BoolStream.cpp</in>
+        <in>BoolStream.h</in>
+        <in>Config.cpp</in>
+        <in>Config.h</in>
+        <in>Debugger.cpp</in>
+        <in>Debugger.h</in>
+        <in>Defines.h</in>
+        <in>DoubleUtilities.cpp</in>
+        <in>DoubleUtilities.h</in>
+        <in>Encodings.cpp</in>
+        <in>Encodings.h</in>
+        <in>Logger.cpp</in>
+        <in>Logger.h</in>
+        <in>Str.cpp</in>
+        <in>Str.h</in>
+        <in>Timer.cpp</in>
+        <in>Timer.h</in>
+        <in>bits.cpp</in>
+        <in>bits.h</in>
+      </df>
+      <df name="WorldGraph">
+        <in>Passing.cpp</in>
+        <in>WorldGraph.cpp</in>
+        <in>WorldGraph.h</in>
+      </df>
+      <df name="WorldModel">
+        <df name="Objects">
+          <in>AmbulanceCenter.cpp</in>
+          <in>AmbulanceCenter.h</in>
+          <in>AmbulanceTeam.cpp</in>
+          <in>AmbulanceTeam.h</in>
+          <in>Blockade.cpp</in>
+          <in>Blockade.h</in>
+          <in>Building.cpp</in>
+          <in>Building.h</in>
+          <in>BuildingsBlock.cpp</in>
+          <in>BuildingsBlock.h</in>
+          <in>Civilian.cpp</in>
+          <in>Civilian.h</in>
+          <in>Edge.cpp</in>
+          <in>Edge.h</in>
+          <in>FireBrigade.cpp</in>
+          <in>FireBrigade.h</in>
+          <in>FireStation.cpp</in>
+          <in>FireStation.h</in>
+          <in>Human.cpp</in>
+          <in>Human.h</in>
+          <in>MotionlessObject.cpp</in>
+          <in>MotionlessObject.h</in>
+          <in>Node.cpp</in>
+          <in>Node.h</in>
+          <in>Platoon.cpp</in>
+          <in>Platoon.h</in>
+          <in>PoliceForce.cpp</in>
+          <in>PoliceForce.h</in>
+          <in>PoliceOffice.cpp</in>
+          <in>PoliceOffice.h</in>
+          <in>RCRObject.cpp</in>
+          <in>RCRObject.h</in>
+          <in>Refuge.cpp</in>
+          <in>Refuge.h</in>
+          <in>River.cpp</in>
+          <in>River.h</in>
+          <in>Road.cpp</in>
+          <in>Road.h</in>
+        </df>
+        <in>Parser.cpp</in>
+        <in>Parser.h</in>
+        <in>WorldModel.cpp</in>
+        <in>WorldModel.h</in>
+      </df>
+      <in>Main.cpp</in>
+      <in>startOffline.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+      <itemPath>Makefile-Eskilas-Pre-IO2011.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile-Eskilas-Pre-IO2011.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>$(MAKE) -f Makefile</buildCommand>
+          <cleanCommand>$(MAKE) -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="Connection/Addr.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/detail</pElem>
+            <pElem>/usr/include/boost/smart_ptr</pElem>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Connection/Message.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Connection/OfflineConnection.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Types</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Connection/OnlineConnection.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/detail</pElem>
+            <pElem>/usr/include/boost/smart_ptr</pElem>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Connection/Socket.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/detail</pElem>
+            <pElem>/usr/include/boost/smart_ptr</pElem>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Connection/TCPSocket.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/detail</pElem>
+            <pElem>/usr/include/boost/smart_ptr</pElem>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/Agent.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>WorldModel</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/AmbulanceCenterAgent.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/AmbulanceTeamAgent.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/Command.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>WorldModel</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/FireBrigadeAgent.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>WorldModel/Objects</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/FireStationAgent.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/PoliceForceAgent.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>WorldModel/Objects</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>WorldModel</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/PoliceOfficeAgent.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/Precomputation.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>WorldModel/Objects</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Decision/Search.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>WorldModel/Objects</pElem>
+            <pElem>WorldModel</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Main.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Geometry</pElem>
+            <pElem>Decision</pElem>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>WorldGraph</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Radar/Radar.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Geometry</pElem>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>WorldModel/Objects</pElem>
+            <pElem>WorldGraph</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Radar/RadioChannel.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Geometry</pElem>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>WorldGraph</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Radar/VoiceChannel.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Basics.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/BoolStream.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Config.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Debugger.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/DoubleUtilities.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Encodings.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Geometry/GeometryFunctions.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Geometry/Line.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Geometry/Point.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Connection</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Geometry/Polygon.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Geometry/Segment.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Connection</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Logger.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Str.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/Timer.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="Utilities/bits.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="WorldGraph/Passing.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>WorldModel</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="WorldModel/Objects/RCRObject.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="WorldModel/Parser.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+            <pElem>WorldGraph</pElem>
+            <pElem>/usr/include/boost/exception</pElem>
+            <pElem>/usr/include/boost</pElem>
+            <pElem>WorldModel</pElem>
+            <pElem>/usr/include/boost/config</pElem>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="WorldModel/WorldModel.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>WorldModel/Objects</pElem>
+            <pElem>WorldGraph</pElem>
+            <pElem>WorldModel</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <folder path="Eskilas-Pre-IO2011/Connection">
+        <ccTool>
+          <incDir>
+            <pElem>Connection</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Eskilas-Pre-IO2011/Decision">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Geometry</pElem>
+            <pElem>Decision</pElem>
+            <pElem>WorldGraph</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Eskilas-Pre-IO2011/Radar">
+        <ccTool>
+          <incDir>
+            <pElem>Radar</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Eskilas-Pre-IO2011/Utilities/Geometry">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Geometry</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Eskilas-Pre-IO2011/Utilities/Types">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Types</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Eskilas-Pre-IO2011/WorldGraph">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Geometry</pElem>
+            <pElem>WorldModel/Objects</pElem>
+            <pElem>WorldGraph</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Eskilas-Pre-IO2011/WorldModel">
+        <ccTool>
+          <incDir>
+            <pElem>Utilities/Geometry</pElem>
+            <pElem>Utilities/Types</pElem>
+            <pElem>Utilities</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Eskilas-Pre-IO2011/WorldModel/Objects">
+        <ccTool>
+          <incDir>
+            <pElem>WorldModel/Objects</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="startOffline.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
